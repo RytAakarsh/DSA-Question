@@ -1,0 +1,1 @@
+ //Numeric Half Hollow Pyramid Pattern
