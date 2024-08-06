@@ -1,4 +1,4 @@
-// function for telling your number is prime or not
+//function for printing only prime till N 
 #include<iostream>
 using namespace std ;
 bool checker ( int n )
