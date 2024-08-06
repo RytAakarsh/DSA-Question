@@ -6,7 +6,7 @@
     return pi*r*r;
  }
  int main (){
-    int r;
+    float r;
     cout<<"Enter your circle radius : ";
     cin>>r;
     float area = areacircle( r );
