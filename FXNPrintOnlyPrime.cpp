@@ -18,12 +18,12 @@ int main ( ) {
     int n;
     cout<<"Enter your number : ";
     cin>>n;
-    bool prime = checker ( n );
-    if ( prime )
-    { 
-        cout<<"prime";
+    int i=2;
+    for (  ; i<n ; i++ )
+    {
+      bool  prime = checker ( i );
+        if (prime)
+        cout<<i<<" ";
     }
-    else {
-        cout<<"not prime";
-    }
+    return 0;
 }
