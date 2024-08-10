@@ -2,9 +2,10 @@
 //i/p : arr[] = {2,1,2,0,0}
 //o/p : arr[] = {0,0,1,2,2}
 //function :-
-class Solution {
-public:
-    void sortColors(vector<int>& nums) {
+#include<iostream>
+#include<vector>
+using namespace std;
+    void sortColors (vector<int>nums) {
     int start=0;
     int mid=0;
     int end=nums.size()-1;
@@ -23,4 +24,3 @@ public:
      }
     }
     }
-};
