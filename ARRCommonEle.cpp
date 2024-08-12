@@ -1,4 +1,4 @@
- //getting common element from three sorted array
+//getting common element from three sorted array
 #include<iostream>
 using namespace std;
 class Solution {
