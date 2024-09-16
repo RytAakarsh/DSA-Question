@@ -21,9 +21,8 @@ int main (){
     }
     cout<<endl;
     }
-
+     //lower part code 
     
-     //lower part
       int s = a - n;
      for ( int row=0 ; row<n ; row++)
      { int  k = s;
